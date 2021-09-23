@@ -1,0 +1,34 @@
+* {margin: 0; padding: 0}
+    
+header {
+    width: 100%; 
+    height: 70px; 
+    background-color: #79685e;
+    padding: 0px; 
+    border: 0; 
+    margin: 0;}
+
+.navi {
+    list-style:none;
+    margin: 0;
+    padding-top: 20px;
+    float: right;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    flex-wrap: nowrap;
+}	
+
+.menu_li:hover {
+    transform: scale(1.05);
+}
+
+/* 링크 */
+
+.menu_a {padding: 20px;}
+.menu_a:hover {text-decoration: underline;}
+.menu_a:link {color: white; text-decoration: none;}
+.menu_a:visited {color: white;}
+
+.menu_li {float: right;}
+
+/* -- 여기까지 공통 복사 --  */

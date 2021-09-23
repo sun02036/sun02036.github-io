@@ -1,0 +1,355 @@
+html { 
+    scroll-behavior: smooth; 
+}
+
+/* 전체화면 */
+
+#content {
+    height: 8500px;
+    padding-top: 100px;
+    background-color: whitesmoke;
+}
+
+
+#menu {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin: 0 50px 50px 0;
+}
+
+/* 오른쪽 */
+
+.right {
+    width: 50%;
+    height: 70%;
+    float: right;
+}
+
+.right > .div_photo {
+    position: fixed;
+    text-align: center;
+    padding: 100px 100% 100px 0;
+    background-color: white;
+    border: 1px solid lightgrey;
+}
+
+#photo {
+    /* padding: 20px; */
+    width: 350px;
+    /* margin: 0 auto; */
+    left: 380px;
+    position: relative;
+}
+
+/* 메뉴 */
+
+.scroll_menu {
+    position: fixed;
+    text-align: left;
+    width: 100px;
+    height: 535px;
+    padding: 10px;
+    background-color: #697e6a;
+}
+
+.scroll_menu > li {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 17px;
+    list-style: none;
+    margin: 38px 0 38px 0;
+}
+
+#scroll_submenu {
+    margin: 0;
+    padding: 5px;
+}
+
+a:hover {text-decoration: underline;}
+a:link {color: white; text-decoration: none;}
+a:visited {color: white;}
+
+/* 왼쪽 */
+
+.left {
+    width: 50%;
+    float: left;
+    background-color: whitesmoke;
+}
+
+
+#page {
+    height: 900px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+/* 메인 */
+
+.left > #page > .hi > h2 {
+    font-size: 80px;
+    margin-top: 100px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.left > #page > .hi > h3 {
+    font-size: 30px;
+    margin: 20px 20px 20px 0;
+    text-align: center;
+    /* text-align: center; */
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.left > #page > .hi_under > .under_text {
+    width: 600px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* about */
+
+.left > #page > .about_text {
+    margin: 70px 20px 70px 0;
+    width: 600px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* favorite */
+
+.left > #page > ul> #favor_li {
+    list-style: none;
+    position: relative;
+    float: left;
+    margin: 10px 100px 20px 0;
+    position: relative; 
+    float: left;
+    padding: 0;
+    text-align: center;
+}
+
+p#favor_title {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    font-size: 18px;
+    background-color: white;
+}
+
+span#favor_content {
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.favor_icon {
+    margin:0;
+    padding:0;
+    width:120px;
+}
+
+/* education */
+
+.left > #page > .edu_text {
+    margin: 70px 20px 70px 0;
+    width: 600px;
+}
+
+.left > #page > .edu_text > span {
+    width: 600px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* goals */
+
+
+.goals_text {
+    margin: 70px 20px 70px 0;
+    width: 600px;
+}
+
+.goals_ul {
+    width: 600px;
+    font-size: 20px;
+}
+
+.goals_li {
+    margin: 30px;
+    list-style: upper-roman;
+    color: #584b44;
+}
+
+.goals_title {
+    font-weight: bold;
+    color: #584b44;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 0 10px 0;
+}
+
+.goals_content {
+    font-weight: normal;
+    font-size: 15px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* projects */
+
+.we_text {
+    margin: 70px 20px 70px 0;
+    width: 74%;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.project_li {
+    margin: 30px 20px 70px 30px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    background-color: white;
+    text-align: center;
+    list-style: none;
+}
+
+.project_title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 auto;
+    letter-spacing: 4px;
+    color: black;
+    border: 1px solid lightgray;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project_img {
+    width: 200px;
+    height: 150px;
+    margin: 10px 0 10px 0;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.project_content {
+    font-size: 13px;
+    margin: 0;
+    line-height: 20px;
+}
+
+/* archiving */
+
+.git_notion {
+    background-color: rgb(228, 228, 228);
+    width: 74%;
+    display: flex;
+}
+
+.site_icon {
+    width: 100px;
+    position: relative;
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+    transition: all 0.1s linear;
+}
+
+.site_icon:hover {
+    transform: scale(1.1);
+}
+
+.site_div {
+    width: 40%;
+    margin: 10px 20px 20px 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.arch_title {
+    font-weight: bold;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.arch_content {
+    margin: 10px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#click_icon {
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    width: 74%;
+    margin-top: 40px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+
+/* contact */
+
+.left > #page > .phone_email_addr {
+    width: 400px;
+    font-size: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 5px;
+    line-height: 40px;
+}
+
+#contact_mail {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+#contact_tel {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+#contact_mail:hover {
+    font-weight: bold;
+}
+
+#contact_tel:hover {
+    font-weight: bold;
+}
+
+/* top */
+
+.top_a {
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    position: relative;
+}
+
+.top > .top_a > span {
+    font-family: 'Montserrat', sans-serif;
+    color: #9e9e9e;
+    font-size: 23px;
+}
+
+.top > .top_a > span:hover {
+    color: black;
+}
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

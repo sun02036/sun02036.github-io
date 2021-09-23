@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style_menu.css">
+    <link rel="stylesheet" href="./css/style_login.css">
+    <link rel="stylesheet" href="./css/style.footer.css">
+
+    <!-- font-family: 'Cormorant Garamond', serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+
+  <!-- font-family: 'Montserrat', sans-serif; -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  
+  <script src="./js/signin.js"></script>
+    <title>JI SU JIN - Login</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul class="navi">
+                <li class="menu_li"><a href="./index.html" class="menu_a">Home</a></li>
+                <li class="menu_li"><a href="./aboutme.html" class="menu_a">About Me</a></li>
+                <li class="menu_li"><a href="./Travel_Film.html" class="menu_a">Travel Film</a></li>
+                <li class="menu_li"><a href="./join.html" class="menu_a">Join</a></li>
+                <li class="menu_li"><a href="./login.html" class="menu_a" style="font-size: 24px; color: #3d3d41; font-weight: bold;">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="content">
+        <div class="wrapper">
+            <h1>Login</h1>
+            <p>Welcome to my website. 
+                <br>
+                If you log in, you can be friends with me. 
+                <br>
+                And you can share a lot of things.</p>
+            <div id="inputs">
+                <input type="text" name="id" id="id" placeholder="아이디 입력"><br>
+                <input type="password" name="pwd" id="pwd" placeholder="비밀번호 입력"><br>
+                <br>
+                <input type="button" value="로그인" id="login" onclick = "login();"><br>
+                <input type="button" value="회원가입" id="signup" onclick="window.location.href='./join.html'">
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <h3>
+            <a id="kh" href="https://iei.or.kr/main/main.kh">KH정보교육원</a>
+            | JI SU JIN
+            <br>
+            Korea, Seoul | 010-0000-0000
+            <br>
+            <a id="mail" href="mailto:sun02036@naver.com">sun02036@naver.com</a>
+        </h3>
+    </footer>
+    
+</body>
+</html>

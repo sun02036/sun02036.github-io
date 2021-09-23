@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+    /* 전체 화면 크기  */
+
+    #content {
+        height: 1000px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: whitesmoke;
+    }
+
+    h1 {
+        font-family: 'Cormorant Garamond', serif;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    
+    fieldset {
+        width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 0;
+    }
+
+    /* 아이디, 비밀번호, 휴대전화 */
+    
+    #input1234 {
+        text-align: center;
+    }
+
+    #id, #pwd, #userName, #phone {
+        width: 75%;
+        height: 43px;
+        border-radius: 30px;
+        border: 0;
+        margin: 10px;
+        padding-left: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    input::placeholder {
+        text-align: center;
+    }
+
+    /* 생일, 성별 */
+
+    #bdaybox {
+        text-align: center;
+    }
+    
+    #bday {
+        width: 75%;
+        height: 43px;
+        border-radius: 30px;
+        border: 0;
+        padding-left: 10px;
+        margin: 10px;
+        font-family: 'Montserrat', sans-serif;
+        color: #3d3d41;
+        text-align: center;
+    }
+
+    label {
+        font-family: 'Montserrat', sans-serif;
+        margin-right: 30px;
+        font-size: 15px;
+        color: #3d3d41;
+    }
+
+    /* 동의 */
+
+    #termbox {
+        margin-left: 10%;
+    }
+
+    .textarea {
+        border: 1px solid lightgray;
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
+        color: #3d3d41;
+        
+    }
+
+    #signupBtn {
+        border: 1px solid rgb(139, 139, 139);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        width: 85%;
+        height: 40px;
+        margin: 5px;
+    }

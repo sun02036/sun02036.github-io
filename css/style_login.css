@@ -1,0 +1,62 @@
+#content {
+    height: 800px;
+    padding-top: 100px;
+    background-color: whitesmoke;
+}
+
+.wrapper {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 0;
+}
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+
+p {
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+#inputs {
+    text-align: center;
+}
+
+#id, #pwd {
+    width: 300px;
+    height: 43px;
+    border-radius: 30px;
+    border: 0;
+    margin: 10px;
+    padding-left: 10px;
+    font-family: 'SpoqaHanSansNeo-Regular';
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+#login, #signup {
+    border: 1px solid rgb(139, 139, 139);
+    font-family: 'SpoqaHanSansNeo-Regular';
+    font-size: 15px;
+    width: 30%;
+    height: 40px;
+    margin: 5px;
+}
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
